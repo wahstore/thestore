@@ -1,0 +1,40 @@
+h1{
+    font-family: 'Grandstander', cursive;
+    
+}
+
+/* @media screen and (max-width: 992px) {
+  body {
+    background-color: blue;
+  }
+}
+@media screen and (max-width: 600px) {
+  body {
+    background-color: olive;
+  }
+} */
+
+@media screen and (min-width: 900px) {
+  h1{
+    font-size: 40px;
+  }
+}
+
+@media screen and (max-width: 900px) and(min-width: 600px) {
+  h1{
+    font-size: 30px;
+  }
+}
+
+/* If screen size is 600px wide, or less, set the font-size of <div> to 30px */
+@media screen and (max-width: 600px) and (min-width: 300px) {
+  h1 {
+    font-size: 20px;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  h1 {
+    font-size: 10px;
+  }
+}
